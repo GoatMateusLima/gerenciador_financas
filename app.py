@@ -18,15 +18,15 @@ st.set_page_config(
 # Estilo limpo
 st.markdown("""
 <style>
-            
-
+    .st-emotion-cache-14vh5up{
+        background: linear-gradient(135deg, #2a010f 0%, #1e1a5e 50%, #10213e 100%) !important;
+        }
     .st-emotion-cache-155jwzh{
-    background: black !important;
+    background: linear-gradient(135deg, #2a010f 0%, #1e1a5e 50%, #10213e 100%) !important;
     }
       /* ===== BASE CYBERPUNK ===== */
     .main {
         background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #16213e 100%);
-        color: white !important;
     }
     
     .stApp {
@@ -34,35 +34,42 @@ st.markdown("""
     }
     
      /* ===== TEXTO CYBERPUNK ===== */
-    * {
+    h1, h2, h3, h4, h5, h6 {
+        color: white !important;
+    }
+    
+    p, span, div {
         color: white !important;
     }
     
     h1 {
-        color: white !important;
         font-weight: 900 !important;
         font-size: 3rem !important;
-        text-align: center;
+        text-align: center !important; 
         font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
         letter-spacing: 2px;
     }
     
     h2 {
-        color: white !important;
         font-weight: 800 !important;
-        font-size: 2rem !important;
+        text-align: center !important;
+        font-size: 1rem !important;
         border-left: 4px solid black;
         padding-left: 15px;
-        font-family: 'Courier New', monospace !important;
+        font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
+        letter-spacing: 2px;
     }
     
     h3 {
-        color: white !important;
         font-weight: 700 !important;
         font-size: 1.5rem !important;
-        font-family: 'Courier New', monospace !important;
+        font-family: Arial Narrow, sans-serif !important;
     }
-    
+            
+    .st-emotion-cache-qiev7j{
+        color: black !important;
+    }
+
      /* ===== SIDEBAR CYBERPUNK ===== */
     .css-1d391kg {
         background: rgba(10, 10, 15, 0.9) !important;
@@ -119,8 +126,11 @@ st.markdown("""
     }
     
      /* ===== FORMULÁRIOS CYBERPUNK ===== */
-    .stTextInput>div>div>input, .stNumberInput>div>div>input, .stSelectbox>div>div>select, .stDateInput>div>div>input {
-        background: rgba(0,0,0,0.2)!important;
+    .stTextInput>div>div>input, 
+    .stNumberInput>div>div>input, 
+    .stSelectbox>div>div>select, 
+    .stDateInput>div>div>input {
+        background: rgba(255,255,255,0.9) !important;
         border: 2px solid #1a1a5e !important;
         border-radius: 8px !important;
         color: black !important;
@@ -129,6 +139,41 @@ st.markdown("""
         font-family: 'Courier New', monospace !important;
         transition: all 0.3s ease !important;
     }
+    
+    /* Texto dentro dos inputs E selectbox fechado */
+    .stTextInput>div>div>input,
+    .stNumberInput>div>div>input,
+    .stSelectbox>div>div>select,
+    .stDateInput>div>div>input {
+        color: black !important;
+    }
+    
+    /* Texto do selectbox quando está fechado */
+    .stSelectbox>div>div>select {
+        color: black !important;
+    }
+    
+    /* Texto do selectbox quando está aberto (dropdown) */
+    .stSelectbox>div>div>select option {
+        color: black !important;
+        background: white !important;
+    }
+    
+    /* Garantir que o texto selecionado no selectbox seja preto */
+    .stSelectbox>div>div>div>div {
+        color: black !important;
+    }
+    
+    /* Texto do selectbox na div principal */
+    .stSelectbox [data-baseweb="select"] > div:first-child {
+        color: black !important;
+    }
+    
+    /* Placeholder */
+    .stTextInput>div>div>input::placeholder {
+        color: #666 !important;
+        opacity: 0.7 !important;
+    }
             
     .stTextInput>div>div>input:focus, 
     .stNumberInput>div>div>input:focus,
@@ -136,15 +181,23 @@ st.markdown("""
     .stDateInput>div>div>input:focus {
         border: 2px solid #ff00ff !important;
         box-shadow: 0 0 15px rgba(255, 0, 255, 0.5) !important;
-        background: rgba(255, 0, 255, 0.1) !important;
-    }
-    
-    /* Placeholder neon */
-    .stTextInput>div>div>input::placeholder {
+        background: rgba(255, 255, 255, 1) !important;
         color: black !important;
     }
+    
+    /* Labels dos formulários */
+    .stTextInput label,
+    .stNumberInput label,
+    .stSelectbox label,
+    .stDateInput label,
+    .stTextInput p,
+    .stNumberInput p,
+    .stSelectbox p,
+    .stDateInput p {
+        color: white !important;
+    }
                     
-      /* ===== DATAFRAME CYBER ===== */
+    /* ===== DATAFRAME CYBER ===== */
     .stDataFrame {
         border-radius: 12px !important;
         background: rgba(0, 255, 136, 0.05) !important;
@@ -239,7 +292,7 @@ st.markdown("""
         background: linear-gradient(135deg, #ff00ff 0%, #00ffff 100%);
     }
             
-      /* ===== MÉTRICAS CYBER ===== */
+    /* ===== MÉTRICAS CYBER ===== */
     div[data-testid="metric-container"] {
         background: rgba(0, 255, 136, 0.1) !important;
         backdrop-filter: blur(10px);
@@ -249,7 +302,7 @@ st.markdown("""
         box-shadow: 0 0 20px rgba(0, 255, 136, 0.2) !important;
     }
     
-     /* ===== RODAPÉ CYBER ===== */
+    /* ===== RODAPÉ CYBER ===== */
     .stCaption {
         color: #00ff88 !important;
         text-align: center !important;
@@ -294,6 +347,18 @@ st.markdown("""
         pointer-events: none;
         z-index: 9999;
     }
+
+    .st-emotion-cache-5qfegl{
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a5e 50%, #16213e 100%) !important;
+            
+        }
+    
+    div {
+    color: rgb(185 185 185) !important;
+   }
+    
+
+    
 </style>
 """, unsafe_allow_html=True)
 
@@ -416,6 +481,13 @@ def main_page():
     # -----------------------------------------
     st.sidebar.header("📁 Gerenciar Arquivos")
 
+     # Botão para Dashboard
+    st.sidebar.markdown("---")
+    if st.sidebar.button("📈 Ir para Dashboard"):
+        st.session_state.current_page = "dashboard"
+        st.rerun()
+
+
     # Criar novo arquivo
     st.sidebar.subheader("Criar Novo Arquivo")
     new_file_name = st.sidebar.text_input("Nome do arquivo:")
@@ -443,25 +515,59 @@ def main_page():
 
     st.sidebar.markdown("---")
 
-    # GERENCIAR BANCOS - AGORA COM EDITAR/EXCLUIR
+    # GERENCIAR BANCOS - COM SELEÇÃO MÚLTIPLA
     st.sidebar.header("🏦 Gerenciar Bancos")
 
     # Inicializar session state para bancos
     if 'bank_options' not in st.session_state:
-        st.session_state.bank_options = BANK_OPTIONS.copy()
-    
-    # Mostrar bancos atuais com opções de exclusão
+      st.session_state.bank_options = BANK_OPTIONS.copy()
+
+    # Inicializar session state para seleção
+    if 'selected_banks' not in st.session_state:
+      st.session_state.selected_banks = []
+
+    # Mostrar bancos atuais com seleção
     st.sidebar.write("**Bancos cadastrados:**")
+
+    # Checkbox para selecionar/desselecionar todos
+    col1, col2 = st.sidebar.columns([1, 3])
+    with col1:
+        select_all = st.checkbox("", key="select_all", value=False)
+    with col2:
+        st.write("**Selecionar todos**")
+
+    if select_all:
+        st.session_state.selected_banks = st.session_state.bank_options.copy()
+    else:
+        if len(st.session_state.selected_banks) == len(st.session_state.bank_options):
+            st.session_state.selected_banks = []
+
+     # Lista de bancos com checkboxes
+    for bank in st.session_state.bank_options:
+        checked = st.sidebar.checkbox(
+            bank, 
+            value=bank in st.session_state.selected_banks,
+            key=f"check_{bank}"
+    )
     
-    for i, bank in enumerate(st.session_state.bank_options):
-        col1, col2 = st.sidebar.columns([3, 1])
-        with col1:
-            st.sidebar.write(f"• {bank}")
-        with col2:
-            if st.sidebar.button("🗑️", key=f"del_{bank}"):
-                if bank in st.session_state.bank_options:
-                    st.session_state.bank_options.remove(bank)
-                st.rerun()
+    if checked and bank not in st.session_state.selected_banks:
+        st.session_state.selected_banks.append(bank)
+    elif not checked and bank in st.session_state.selected_banks:
+        st.session_state.selected_banks.remove(bank)
+
+    # Botão de excluir selecionados (só aparece se houver seleção)
+    if st.session_state.selected_banks:
+       st.sidebar.markdown("---")
+    st.sidebar.write(f"**{len(st.session_state.selected_banks)} banco(s) selecionado(s)**")
+    
+    if st.sidebar.button("🗑️ Excluir Selecionados", type="primary"):
+        for bank in st.session_state.selected_banks:
+            if bank in st.session_state.bank_options:
+                st.session_state.bank_options.remove(bank)
+        
+        st.session_state.selected_banks = []
+        st.sidebar.success(f"{len(st.session_state.selected_banks)} banco(s) excluído(s)!")
+        st.rerun()
 
     # Adicionar novo banco
     st.sidebar.markdown("---")
@@ -479,12 +585,8 @@ def main_page():
         else:
             st.sidebar.error("Digite um nome para o banco")
 
-    # Botão para Dashboard
-    st.sidebar.markdown("---")
-    if st.sidebar.button("📈 Ir para Dashboard"):
-        st.session_state.current_page = "dashboard"
-        st.rerun()
 
+   
     # Carregar dados
     df = pd.DataFrame()
     active_filename = None
@@ -591,7 +693,7 @@ def main_page():
                 data_transacao = st.date_input("Data:", value=date.today())
                 valor = st.number_input("Valor (R$):", min_value=0.0, format="%.2f", step=0.01)
             
-            submitted = st.form_submit_button("💾 Adicionar Transação")
+            submitted = st.form_submit_button("💾 Adicionar Transação", key="add_transaction_btn")
             
             if submitted:
                 if not nome_pessoa.strip():
