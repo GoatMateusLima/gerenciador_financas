@@ -1,0 +1,58 @@
+2025-10-19 03:39:33,607 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:39:33,628 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:40:32,135 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:40:32,143 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:54:33,059 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:54:58,873 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:55:05,234 - DEBUG - Navegação para CONTROLE
+2025-10-19 03:55:05,238 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:55:10,440 - DEBUG - Navegação para DASHBOARD
+2025-10-19 03:55:10,446 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:55:11,369 - DEBUG - Navegação para CONTROLE
+2025-10-19 03:55:11,376 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:55:51,105 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:55:57,869 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:56:01,119 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:56:02,350 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:56:02,359 - DEBUG - Bancos salvos com sucesso
+2025-10-19 03:56:02,361 - INFO - Banco Mercado Pago excluído
+2025-10-19 03:59:42,514 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 03:59:42,551 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:00:42,431 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:00:42,434 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:00:57,325 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:00:57,331 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:01:50,586 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:01:50,590 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:02:04,385 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:02:04,397 - ERROR - Erro ao carregar arquivo backup_backup_ola br_20251018_235727_20251019_025848.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-10-19 04:02:08,962 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:02:08,972 - ERROR - Erro ao carregar arquivo backup_ola br_20251018_235727.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-10-19 04:02:15,622 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:02:15,630 - ERROR - Erro ao carregar arquivo ~$backup_ola br_20251018_235727.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-10-19 04:02:21,988 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:02:25,514 - ERROR - Erro ao criar arquivo ola brasil tudo bem.xlsx: No module named 'openpyxl'
+2025-10-19 04:02:25,516 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:03:18,510 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:03:18,514 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:03:21,801 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:03:26,336 - DEBUG - Navegação para DASHBOARD
+2025-10-19 04:03:26,341 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:03:26,955 - DEBUG - Navegação para CONTROLE
+2025-10-19 04:03:26,960 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:05:05,758 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:05:05,760 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:05:11,828 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:05:11,833 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:05:26,074 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:05:26,079 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:05:34,746 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:06:44,233 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:06:44,236 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:06:50,363 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:08:01,549 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:08:01,551 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:08:02,824 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx', '~$backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:08:02,828 - DEBUG - Bancos carregados do arquivo
+2025-10-19 04:12:37,912 - DEBUG - Arquivos encontrados: ['backup_backup_ola br_20251018_235727_20251019_025848.xlsx', 'backup_ola br_20251018_235727.xlsx']
+2025-10-19 04:12:37,915 - DEBUG - Bancos carregados do arquivo
